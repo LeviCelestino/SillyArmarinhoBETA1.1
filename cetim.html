@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" media="(max-width: 600px)" href="./style.css" />
+    <title>Silly Armarinho</title>
+    <style>
+    
+        html, body { font-family: 'Roboto Condensed', sans-serif; font-size: 100%; width: 100%; height: 100%; }
+
+        p { text-align: justify; }
+        h1 { font-size: 2.2em; font-weight: 700; }
+        a { text-decoration: none; transition: 0.5s; }
+        *{
+            padding: 0px;
+            margin: 0px;
+        }
+        header{
+        background-color: #000000FF;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        color: rgb(255, 255, 255);
+        height: 100px;
+        position: relative;
+        }
+        #logo{
+            color: white;
+            max-width: 20px;
+            padding-left: 20px;
+        }
+        span{
+            margin-left: 50px;
+            
+        }
+        #barra-pesquisa{
+            background-color: palevioletred;
+            text-align: center;
+        }
+        ul{
+            list-style-type: none;
+            padding: 0px;
+            text-decoration: none;
+        }
+        .cetim{
+            display: inline-block;
+            color: white;
+            text-decoration: none;
+            padding: 7px;
+            padding-left: 20px;
+            font-weight: bolder;
+            color: black;
+            
+        }
+        a{
+            text-decoration: none;
+            color: rgb(250, 250, 250)    ;
+        }
+        
+        section{
+            background-color: #000000FF;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            padding: 0;
+        }
+        .n{
+            border-radius: 40px;
+            margin-top: 20px;
+            margin-right: 10px;
+            max-width: 120px;
+           
+            
+        }
+        .n2{
+            border-radius: 40px;
+            margin-top: 20px;
+            margin-right: 10px;
+            max-width: 110px;
+           
+            
+        }
+        .quebra{
+            padding: 0;
+            margin-right: 15px;
+            color: wheat;
+            text-align: center;
+        }
+       #sec{
+           align-items: center;
+           display: flex;
+           flex-direction: column;
+               
+       }
+       #sec2{
+           align-items: center;
+           display: flex;
+           flex-direction: column;
+               
+       }
+    </style>
+</head>
+<body>
+
+    <header>
+        <div id="logo"> <h1> <span> <a href="./index.html">Silly</span> Armarinho</h1></a></div>
+    </header>   
+    <nav>
+        <div id="barra-pesquisa">
+            <ul>
+                <li class = 'cetim'>Cetim</li>
+            </ul>
+        </div>
+    </nav>
+        <section>
+            <ul id = 'sec'>
+                <li><img class = 'n' src="./fita_cetim_progresso_01.jpg" alt=""><div class="quebra">Cetim N°2
+                    <div>R$3,00</div>
+                </div></li>
+                <li><img class ='n' src="./cetim-n3.webp" alt=""><div class="quebra">Cetim N°3
+                    <div>R$4,50</div></li>
+                    <li><img class ='n' src="./cetimn5.jpg" alt=""><div class="quebra">Cetim N°5
+                    <div>R$5,30</div></li>
+                    <li><img class ='n' src="./cetim9.jpg" alt=""><div class="quebra">Cetim N°9 <div>R$8,90</div></li>
+            </ul>
+            <ul id = 'sec2'>
+                <li><img class = 'n' src="./fita_50n2.jpg" alt=""><div class="quebra">Cetim N°2
+                    <div>R$12,90</div>
+                </div></li>
+                <li><img class ='n' src="./cetim350m.jfif" alt=""><div class="quebra">Cetim N°3
+                    <div>R$16,90</div></li>
+                    <li><img class ='n2' src="./cetim-n550m.jpg" alt=""><div class="quebra">Cetim N°5
+                    <div>R$23,90</div></li>
+                    <li><img class ='n' src="./cetim9.jpg" alt=""><div class="quebra">Cetim N°9 <div>R$39,00</div></li>
+            </ul>
+            </ul>
+        </section>
+</body>
+</html>
